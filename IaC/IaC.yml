@@ -1,0 +1,10 @@
+AWSTemplateFormatVersion: '2010-09-09'
+
+Resources:
+  # SQS Queue
+  BookingNotificationQueue:
+    Type: AWS::SQS::Queue
+    Properties:
+      QueueName: BookingNotificationQueue
+      VisibilityTimeout: 180
+
