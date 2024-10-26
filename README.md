@@ -1,4 +1,4 @@
-# DalVacationHome
+# DalVacation
 
 <video width="320" height="240" controls>
   <source src="https://drive.google.com/file/d/1WUvHfPIUKP1LP5rvp_nrYTh8BsTcYaqx/view?usp=drive_link" type="video/mp4">
@@ -6,7 +6,7 @@
 
 ## Overview
 
-DalVacationHome is an innovative serverless application designed for managing vacation rentals, guest interactions, and virtual support services. This cutting-edge platform employs a multi-cloud strategy and Backend-as-a-Service (BaaS) architecture, harnessing the power of both AWS and Google Cloud Platform (GCP) to ensure a scalable and resilient user experience.
+DalVacation is an innovative serverless application designed for managing vacation rentals, guest interactions, and virtual support services. This cutting-edge platform employs a multi-cloud strategy and Backend-as-a-Service (BaaS) architecture, harnessing the power of both AWS and Google Cloud Platform (GCP) to ensure a scalable and resilient user experience.
 
 The application caters to a diverse user base, including casual guests, registered customers, and property agents, each with role-specific access to various features. These functionalities encompass streamlined room booking processes, intuitive feedback mechanisms, and an intelligent virtual assistance system.
 
@@ -45,7 +45,7 @@ The project is built using a combination of AWS and Google Cloud services to ach
 - **Notifications**: AWS SNS and SQS are used to send notifications for various user actions like successful registration, login, and booking confirmations.
 - **Data Storage and Analysis**: Uses AWS DynamoDB and Google Cloud Storage for storing user and booking data. Google Looker Studio is used for data visualization and analytics.
 
-## Technology Stack
+## Tech Stack
 
 - **Frontend**: React, with Google Dialogflow chatbot.
 - **Backend**: AWS Lambda (Node.js), Google Cloud Functions.
@@ -57,7 +57,7 @@ The project is built using a combination of AWS and Google Cloud services to ach
 
 ## Setup and Deployment
 
-### Prerequisites
+### Requirements
 
 1. **AWS Account**: Required for setting up Cognito, Lambda functions, DynamoDB, SNS, and SQS.
 2. **Google Cloud Platform Account**: Needed for Dialogflow, Cloud Functions, Firestore, and Cloud Run.
