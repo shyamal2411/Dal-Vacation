@@ -22,16 +22,23 @@ By leveraging the strengths of multiple cloud providers and adopting a serverles
 
 ### For Registered Customers
 
-- **Multi-Factor Authentication**: Registered customers must complete multi-factor authentication (using password, security questions, and a Caesar cipher challenge) to access their accounts.
+- **Multi-Factor Authentication**: Registered customers must complete multi-factor authentication (using a password, security questions, and a Caesar cipher challenge) to access their accounts.
 - **Book Rooms**: Customers can book rooms and recreation facilities for specified periods.
 - **Enhanced Virtual Assistant**: The chatbot provides additional functionalities such as booking management and direct communication with property agents.
 - **Provide Feedback**: Customers can submit feedback on their stay and facilities.
 
 ### For Property Agents
 
-- **Manage Rooms**: Agents can add or update room details, set prices, add discounts, and manage room features.
+- **Manage Rooms**: Agents can add or update room details, set prices, add discounts and manage room features.
 - **Respond to Customer Queries**: Agents can receive and respond to customer queries through an integrated messaging system.
 - **View Analytics**: Agents have access to data analytics and user statistics through embedded dashboards.
+
+## Demo
+
+<a href="https://youtu.be/QEwIawS8ge0" target="_blank">
+  <img src="https://img.youtube.com/vi/QEwIawS8ge0/0.jpg" alt="Watch the video" width="700" align-items="center" />
+</a>
+
 
 ## Architecture
 
